@@ -1,1 +1,2 @@
-texto del documento2/n
+añado dos lineas mas de texto en concreto al documento2.txt/n
+añado dos lineas mas de texto en concreto al documento2.txt\nSegunda linea
