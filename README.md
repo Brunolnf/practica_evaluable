@@ -78,3 +78,24 @@ git describe --tags: Muestra el tag más reciente que contiene el commit actual.
 git archive --format=zip --output=<nombre_archivo.zip> <rama>: Crea un archivo zip de una rama específica.
 git log --follow <archivo>: Muestra el historial de cambios de un archivo incluso si ha sido renombrado.
 git bisect visualize: Abre una interfaz gráfica para ayudar en la búsqueda binaria de commits.
+git clone <URL_del_repositorio> practica_evaluable_2: Clona un repositorio remoto en un directorio local.
+git checkout -b mirama: Crea una nueva rama y cambia a ella.
+git add documento1.txt: Agrega un archivo al área de preparación.
+git commit -m "Mensaje": Guarda los cambios confirmados en el repositorio con un mensaje descriptivo.
+git push origin mirama: Sube los commits locales al repositorio remoto en una rama específica.
+git checkout main: Cambia a la rama principal del repositorio.
+git merge mirama: Fusiona los cambios de una rama en la rama actual.
+git branch -d mirama: Elimina una rama localmente.
+git push origin main: Sube los commits de la rama principal al repositorio remoto.
+git merge main: Fusiona los cambios de la rama principal en la rama actual.
+git push origin main: Sube los commits fusionados al repositorio remoto.
+git checkout -b mirama: Crea una nueva rama y cambia a ella.
+git add documento2.txt: Agrega un archivo al área de preparación.
+git commit -m "Mensaje": Guarda los cambios confirmados en el repositorio con un mensaje descriptivo.
+git merge main: Fusiona los cambios de una rama en la rama actual.
+git push origin mirama: Sube los commits de la rama actual al repositorio remoto en una rama específica.
+git pull origin main: Obtiene y fusiona los cambios del repositorio remoto en la rama actual.
+git add README.md: Agrega un archivo al área de preparación.
+git commit -m "Mensaje": Guarda los cambios confirmados en el repositorio con un mensaje descriptivo.
+git pull origin main: Obtiene y fusiona los cambios del repositorio remoto en la rama actual.
+git push origin main: Sube los commits de la rama actual al repositorio remoto.
