@@ -1,5 +1,6 @@
-git init: Inicializa un nuevo repositorio Git en el directorio actual.
-git clone <URL>: Clona un repositorio Git existente desde una URL remota.
+- git init: Inicializa un nuevo repositorio Git en el directorio actual.
+-
+- git clone <URL>: Clona un repositorio Git existente desde una URL remota.
 git add <archivo>: Agrega un archivo al área de preparación para ser incluido en el próximo commit.
 git commit -m "Mensaje": Guarda los cambios confirmados en el repositorio con un mensaje descriptivo.
 git status: Muestra el estado actual del repositorio, incluyendo archivos modificados, agregados y eliminados.
