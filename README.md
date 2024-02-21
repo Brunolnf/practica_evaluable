@@ -71,3 +71,28 @@ git add README.md: Agrega un archivo al área de preparación.
 git commit -m "Mensaje": Guarda los cambios confirmados en el repositorio con un mensaje descriptivo.
 git pull origin main: Obtiene y fusiona los cambios del repositorio remoto en la rama actual.
 git push origin main: Sube los commits de la rama actual al repositorio remoto.
+PRACTICA
+mkdir practica_evaluable: Crea un directorio llamado "practica_evaluable".
+cd practica_evaluable: Cambia al directorio "practica_evaluable".
+git init: Inicializa un nuevo repositorio Git en el directorio actual.
+touch documento1.txt documento2.txt: Crea dos archivos llamados "documento1.txt" y "documento2.txt".
+echo "Texto para documento 1" >> documento1.txt y echo "Texto para documento 2" >> documento2.txt: Añade texto a los archivos "documento1.txt" y "documento2.txt", respectivamente.
+git add documento1.txt documento2.txt: Añade los archivos "documento1.txt" y "documento2.txt" al área de preparación de Git.
+git commit -m "Mensaje de commit": Crea un nuevo commit con los cambios preparados y les asigna un mensaje descriptivo.
+git reset --hard HEAD~1: Regresa al estado anterior al último commit realizado, eliminando los cambios.
+git remote add origin <URL_del_repositorio_remoto>: Conecta el repositorio local con un repositorio remoto en GitHub.
+git push -u origin main: Sube los cambios del repositorio local al repositorio remoto en la rama principal (main).
+git checkout -b nombre_rama: Crea una nueva rama y cambia a ella.
+git tag nombre_etiqueta: Crea una nueva etiqueta en el commit actual.
+git clone <URL_del_repositorio_remoto> directorio_local: Clona un repositorio remoto en un directorio local.
+git branch -d nombre_rama: Borra una rama local.
+git merge nombre_rama: Fusiona los cambios de una rama en otra.
+git push origin nombre_rama: Sube los cambios de una rama local al repositorio remoto.
+echo "Texto" >> archivo.txt: Añade texto al final de un archivo.
+git push origin main: Sube los cambios de la rama principal al repositorio remoto.
+git merge nombre_rama: Fusiona los cambios de una rama en otra.
+git push origin main: Sube los cambios de la rama principal al repositorio remoto.
+git add nombre_archivo: Añade un archivo al área de preparación.
+git commit -m "Mensaje de commit": Crea un nuevo commit con los cambios preparados y les asigna un mensaje descriptivo.
+git push origin main: Sube los cambios de la rama principal al repositorio remoto.
+git push --tags: Sube las etiquetas al repositorio remoto.
